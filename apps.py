@@ -8,7 +8,7 @@ from utils.session import Session
 app = routes.app
 app_sess = routes.app_sess
 
-if __name__ == '__main___':
-    bottle.run(app=app_sess, host='0.0.0.0', port=8888, reloader=True, debug=True)
+if __name__ == '__main__':
+    bottle.run(app=app_sess, host='0.0.0.0', port=8000, reloader=True, debug=True)
 else:
     application = app_sess

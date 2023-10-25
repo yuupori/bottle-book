@@ -19,4 +19,4 @@ def list():
                             Books.id_)\
             .filter(Books.delFlg == False).all()
     headers = ['書名', '巻数', '著者', '出版社', 'メモ', '操作']
-    return remplate('list.html', bookList=bookList, headers=headers)
+    return template('list.html', bookList=bookList, headers=headers)
