@@ -1,6 +1,7 @@
 from email.mime import application
 import bottle
 import routes
+import routes_form
 import routes_list
 import routes_login
 from utils.session import Session

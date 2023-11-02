@@ -26,7 +26,7 @@
             </tr>
             </thead>
             <!-- table body -->
-            {% for list in booklist %}
+            {% for list in bookList %}
             <tr>
                 <td>{{list.name}}</td>
                 <td>{{list.volume}}</td>
@@ -37,7 +37,7 @@
                     <a href="add?id={{list.id_}}">
                         <button class="btn btn-secondary"><i class="fas fa-pen"></i></button>
                     </a>
-                    <a href="delete//{{list.id_}}">
+                    <a href="delete/{{list.id_}}">
                         <button class="btn btn-secondary"><i class="fas fa-trash-alt"></i></button>
                     </a>
                 </th>
